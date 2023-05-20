@@ -1,7 +1,4 @@
 # rayfield bypass
 
-this is a simple rayfield key system bypass, to bypass the key system put this code before executing the rayfield original code:
-
-while wait() do
-  local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/thiaguindograu1234/rayfieldkeysystembypass/main/source'))()
-end
+this is a simple rayfield key system bypass, to bypass the key system you need to change the local Rayfield = loadstring(original source)
+to the source of this repository, it has no key system and may pass you directly into the script
